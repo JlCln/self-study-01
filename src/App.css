@@ -194,6 +194,7 @@
   margin-top: 15px;
   filter: drop-shadow(0 0 2em #6eadd18e);
   font-size: 1.5rem;
+  text-shadow: #000000 1px 1px 5px;
 }
 
 .bold {
