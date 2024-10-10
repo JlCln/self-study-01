@@ -3,7 +3,7 @@
 export default function PartOne() {
   return (
     <div className="part-one-container">
-        <section id="part-one">
+        <section className="section-container"id="part-one">
                 <h2>I. Comprendre le développement front-end</h2>
                 <p>Le développement front-end consiste à créer les parties d'un site Web ou d'une application avec lesquelles les utilisateurs interagissent directement.</p>
                 <p>En bref, les développeurs front-end sont responsables de la création de ce que les utilisateurs voient et expérimentent lorsqu'ils visitent un site ou utilisent une application.</p>
@@ -15,7 +15,7 @@ export default function PartOne() {
 
         </section>
 
-        <section id="part-two">
+        <section className="section-container" id="part-two">
 
             <h2>II. Importance du développement front-end</h2>
 

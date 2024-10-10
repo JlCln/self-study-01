@@ -3,7 +3,7 @@
 export default function PartTwo() {
   return (
     <div className="part-two">
-        <section id="part-three">
+        <section className="section-container" id="part-three">
                     <h2>III. Principaux défis du développement front-end</h2>
 
                     <h3>Compatibilité entre navigateurs</h3>

@@ -3,7 +3,7 @@
 export default function PartThree() {
   return (
     <div className="part-three">
-      <section id="part-four">
+      <section className="section-container" id="part-four">
         <h2>IV. Les récompenses créatives et techniques du développement front-end</h2>
         <p>Le développement front-end ne se résume pas à l'écriture de code : c'est aussi la rencontre entre créativité et savoir-faire technique. Les développeurs front-end façonnent la façon dont les utilisateurs utilisent les sites Web et les applications, en travaillant sur des projets à la fois attrayants visuellement et fonctionnels. Découvrons les avantages passionnants de la maîtrise du développement front-end.</p>
 

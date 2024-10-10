@@ -47,6 +47,41 @@
   align-items: center;
   gap: 10px;
   margin-top: 10px;
+  /* background-image: url("/public/nebula-1.png");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  z-index: 1;
+  position: relative;
+}
+
+.background-image {
+  background-image: url("/public/nebula-2.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image-2 {
+  background-image: url("/public/nebula-1.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.24;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 2em #0000008e);
 }
 
 .header-logos {
@@ -55,41 +90,43 @@
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  margin-bottom: 2rem;
 }
 
 .header-logo {
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
 }
 
 #html-logo {
   filter: drop-shadow(0 0 10px #ff4444c3);
-  border-radius: 40%;
+  /* border-radius: 40%; */
 }
 
 #css-logo {
   filter: drop-shadow(0 0 10px #4476ffc3);
-  border-radius: 40%;
+  /* border-radius: 40%; */
 }
 
 #js-logo {
   filter: drop-shadow(0 0 10px #fffc44cc);
-  border-radius: 40%;
+  /* border-radius: 40%; */
 }
 
 #git-logo {
   filter: drop-shadow(0 0 10px #ff8f44cc);
-  border-radius: 40%;
+  /* border-radius: 40%; */
 }
 
 #react-logo {
   filter: drop-shadow(0 0 10px #44f3ffcc);
-  border-radius: 40%;
+  /* border-radius: 40%; */
 }
 
 .title-text {
   text-align: center;
-  font-weight: 800;
+  font-weight: 1200;
+  font-size: 5rem;
 }
 
 .parts-container {
@@ -154,7 +191,7 @@
   border-radius: 15px;
   border: 1px solid black;
   margin-top: 15px;
-  filter: drop-shadow(0 0 2em #fb75618e);
+  filter: drop-shadow(0 0 2em #6eadd18e);
   font-size: 1.5rem;
 }
 
@@ -166,4 +203,23 @@
 #conclusion-title {
   font-weight: bold;
   font-size: 2rem;
+}
+
+.section-container:hover {
+  transform: scale(1.005);
+  outline: 2px solid #ffffff71;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#nebula-logo {
+  width: 300px;
+  height: 300px;
+  opacity: 0.75;
 }

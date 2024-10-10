@@ -3,7 +3,7 @@
 export default function LastPart() {
   return (
     <div className="last-part">
-        <section id="last-part">
+        <section className="section-container" id="last-part">
         <h2>V. Surmonter les défis courants du développement front-end : conseils et bonnes pratiques</h2>
 <p>Le développement front-end comporte son lot de défis. Qu'il s'agisse de garantir que les sites Web se chargent rapidement, fonctionnent sur plusieurs appareils ou soient accessibles à tous, les développeurs front-end sont confrontés à de nombreux obstacles techniques. Cependant, ces défis peuvent être relevés efficacement avec les bonnes pratiques et les bons outils de développement front-end. Voici quelques conseils clés pour surmonter les obstacles courants dans le développement front-end des sites Web.</p>
 
@@ -49,11 +49,16 @@ export default function LastPart() {
 <li>Outils de débogage : utilisez les outils de développement du navigateur et les logiciels de suivi des erreurs.</li>
 </ul>
         </section>
-        <section id="conclusion">
+        <section className="section-container" id="conclusion">
 <h2 id="conclusion-title">Conclusion 🚀</h2>
+<div className="background-image-2"></div>
 <p>Le développement front-end de sites Web est un domaine en constante évolution qui allie créativité et technologie. Les défis du développement front-end (compatibilité entre navigateurs, conception réactive ou optimisation des performances) sont des opportunités de croissance. Avec le bon état d'esprit, les bons outils et les bonnes pratiques, les développeurs front-end peuvent créer des sites Web attrayants et conviviaux qui se démarquent dans le paysage numérique.
 Dans un monde où l'expérience utilisateur est primordiale, les développeurs front-end jouent un rôle crucial dans la façon dont les gens interagissent avec le Web. Relevez les défis, continuez à apprendre et laissez votre empreinte dans le monde passionnant du développement front-end.</p>
+<br/>
         </section>
+        <div className="footer-container">
+
+        </div>
     </div>
   )
 }
