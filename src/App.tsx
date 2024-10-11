@@ -6,6 +6,7 @@ import PartOne from './components/PartOne'
 import PartTwo from './components/PartTwo'
 import PartThree from './components/PartThree'
 import LastPart from './components/LastPart'
+import PartFour from './components/PartFour'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <PartOne />
       <PartTwo />
       <PartThree />
+      <PartFour />
       <LastPart />
       </div>
     </>

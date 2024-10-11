@@ -178,6 +178,14 @@
   filter: drop-shadow(0 0 2em #df61fb60);
 }
 
+#part-five {
+  background-color: rgba(250, 235, 215, 0.156);
+  padding: 3px 15px;
+  border-radius: 15px;
+  border: 1px solid black;
+  filter: drop-shadow(0 0 2em #ff444460);
+}
+
 #last-part {
   background-color: rgba(250, 235, 215, 0.156);
   padding: 3px 15px;

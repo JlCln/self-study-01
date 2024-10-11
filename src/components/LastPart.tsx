@@ -4,7 +4,7 @@ export default function LastPart() {
   return (
     <div className="last-part">
         <section className="section-container" id="last-part">
-        <h2>V. Surmonter les défis courants du développement front-end : conseils et bonnes pratiques</h2>
+        <h2>VI. Surmonter les défis courants du développement front-end : conseils et bonnes pratiques</h2>
 <p>Le développement front-end comporte son lot de défis. Qu'il s'agisse de garantir que les sites Web se chargent rapidement, fonctionnent sur plusieurs appareils ou soient accessibles à tous, les développeurs front-end sont confrontés à de nombreux obstacles techniques. Cependant, ces défis peuvent être relevés efficacement avec les bonnes pratiques et les bons outils de développement front-end. Voici quelques conseils clés pour surmonter les obstacles courants dans le développement front-end des sites Web.</p>
 
 <h3>Bonnes pratiques pour un code propre et maintenable</h3>
@@ -57,6 +57,7 @@ Dans un monde où l'expérience utilisateur est primordiale, les développeurs f
 <br/>
         </section>
         <div className="footer-container">
+            <p className="footer-text">A l'attention de la promo Nebula @ WCS 2024. ✨ <a href="https://dev.to/nicholaswinst14/the-challenges-and-rewards-of-front-end-development-7p4">Source de l'article ici (anglais)</a></p>
 
         </div>
     </div>
