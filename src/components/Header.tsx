@@ -12,7 +12,7 @@ function Header() {
           <img src="logo-html5.svg" className="header-logo" id="html-logo"></img>
           <img src="logo-css3.svg" className="header-logo" id="css-logo"></img>
           <img src="logo-javascript.svg" className="header-logo" id="js-logo"></img>
-          <img src="git-branch-outline.svg" className="header-logo" id="git-logo"></img>
+          <img src="Git-Icon-White.svg" className="header-logo" id="git-logo"></img>
           <img src="logo-react.svg" className="header-logo" id="react-logo" ></img>
           </div>
         </div>

@@ -7,7 +7,8 @@ export default function PartFour() {
         <h2>V. Outils et cadres essentiels pour le développement front-end</h2>
         <p>Le développement front-end repose sur un mélange d'outils et de frameworks qui rendent le processus plus fluide et plus efficace. Ces technologies optimisent le flux de travail et garantissent que les sites Web et les applications sont soignés, réactifs et conviviaux. La maîtrise de ces outils est essentielle pour tout développeur front-end souhaitant créer des expériences numériques de haute qualité.</p>
 <section className="section-html">
-<h3>HTML/CSS</h3>
+    <div className="paragraph-logo-container">
+<img src="logo-html5.svg" className="paragraph-logo"></img><h3>HTML/CSS</h3><img src="logo-css3.svg" className="paragraph-logo"></img></div>
 
 <p>Le HTML (Hypertext Markup Language) et le CSS (Cascading Style Sheets) sont les bases du développement front-end. Le HTML structure le contenu, tandis que le CSS contrôle la conception, la mise en page et l'apparence. La maîtrise de ces bases permet aux développeurs front-end de créer des sites Web propres, organisés et réactifs.<br/>
 <br/>
@@ -15,7 +16,8 @@ export default function PartFour() {
 Importance : Une bonne maîtrise du HTML/CSS garantit que les sites Web sont accessibles, optimisés pour le référencement et fonctionnent bien sur tous les appareils. Les développeurs front-end qui excellent dans ces domaines créent des sites adaptables qui sont à la fois attrayants visuellement et fonctionnels.</p>
 </section>
 <section className="section-css">
-<h3>JavaScript</h3>
+<div className="paragraph-logo-container">
+<img src="logo-javascript.svg" className="paragraph-logo"></img><h3>JavaScript</h3><img src="logo-react.svg" className="paragraph-logo"></img></div>
 
 <p>JavaScript optimise l'interactivité des sites Web. Il permet aux développeurs d'ajouter des fonctionnalités dynamiques telles que des animations, des validations de formulaires et des éléments interactifs tels que des curseurs ou des listes déroulantes.
 <br/>
@@ -24,7 +26,8 @@ Importance : Une bonne maîtrise du HTML/CSS garantit que les sites Web sont acc
 Frameworks : JavaScript est encore amélioré par des bibliothèques comme jQuery et des frameworks comme React, Angular et Vue.js. Ces frameworks simplifient les tâches de codage complexes et aident à créer des interfaces utilisateur rapides et réactives. Chaque framework apporte des avantages uniques, ce qui en fait des outils précieux pour le développement front-end moderne.</p>
 </section>
 <section className="section-git">
-<h3>Contrôle de version (Git)</h3>
+<div className="paragraph-logo-container">
+<img src="Git-Icon-White.svg" className="paragraph-logo"></img><h3>Contrôle de version (Git)</h3><img src="logo-github.svg" className="paragraph-logo"></img></div>
 
 <p>Les systèmes de contrôle de version comme Git sont essentiels pour la collaboration dans le développement front-end. Git permet aux développeurs de suivre les modifications, de gérer différentes versions et de collaborer sans écraser le travail des autres.
 <br />
@@ -32,7 +35,8 @@ Frameworks : JavaScript est encore amélioré par des bibliothèques comme jQuer
 Importance : Git fournit un filet de sécurité en permettant aux développeurs de revenir aux versions précédentes si nécessaire. Il rend également le travail en équipe plus efficace en permettant à plusieurs personnes de travailler sur le même projet, de suivre les modifications et de fusionner leur travail en douceur.</p>
 </section>
 <section className="section-vscode">
-<h3>Outils de développement et éditeurs de code</h3>
+<div className="paragraph-logo-container">
+<img src="logo-npm.svg" className="paragraph-logo"></img><h3>Outils de développement et éditeurs de code</h3><img src="Visual-Studio.svg" className="paragraph-logo"></img></div>
 
 <p>Choisir les bons outils et éditeurs de code, tels que VS Code, Sublime Text ou Atom, est essentiel pour la productivité. Ces éditeurs sont dotés de fonctions de mise en évidence de la syntaxe, de détection des erreurs et de saisie semi-automatique, ce qui rend le codage plus rapide et moins sujet aux erreurs.
 <br />
