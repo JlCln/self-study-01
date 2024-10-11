@@ -58,7 +58,7 @@
 }
 
 .background-image {
-  background-image: url("/public/nebula-2.png");
+  background-image: url("/nebula-2.png");
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 }
 
 .background-image-2 {
-  background-image: url("/public/nebula-1.png");
+  background-image: url("/nebula-1.png");
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
